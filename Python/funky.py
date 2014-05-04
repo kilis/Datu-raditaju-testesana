@@ -23,19 +23,68 @@ def mainig():
 def darbarfunk(x):
     if x == 1:
         #saskaitit
-        return addk(a,b)
+        if (isfloat(a)== True) and (isfloat(b)==True):
+            return float(addk(float(a),float(b)))
+        elif(isfloat(a)== True) and (isfloat(b)==False):
+            return float(addk(float(a),b))
+        elif(isfloat(a)== False) and (isfloat(b)==True):
+            return float(addk(a,float(b)))
+        else:
+            return addk(a,b)
     elif x==2:
         #atnjemt
-        return subk(a,b)
+        if (isfloat(a)== True) and (isfloat(b)==True):
+            return float(subk(float(a),float(b)))
+        elif(isfloat(a)== True) and (isfloat(b)==False):
+            return float(subk(float(a),b))
+        elif(isfloat(a)== False) and (isfloat(b)==True):
+            return float(subk(a,float(b)))
+        else:
+            return subk(a,b)
     elif x==3:
         #dalit
-        return divk(a,b)
+        if (isfloat(a)== True) and (isfloat(b)==True):
+            return float(divk(float(a),float(b)))
+        elif(isfloat(a)== True) and (isfloat(b)==False):
+            return float(divk(float(a),b))
+        elif(isfloat(a)== False) and (isfloat(b)==True):
+            return float(divk(a,float(b)))
+        else:
+            return float(divk(a,b))
     elif x==4:
         #reizinat
-        return mulk(a,b)
+        if (isfloat(a)== True) and (isfloat(b)==True):
+            return float(mulk(float(a),float(b)))
+        elif(isfloat(a)== True) and (isfloat(b)==False):
+            return float(mulk(float(a),b))
+        elif(isfloat(a)== False) and (isfloat(b)==True):
+            return float(mulk(a,float(b)))
+        else:
+            return mulk(a,b)
     elif x==5:
         #eksponente
-        return expk(a,b)
+        if (isfloat(a)== True) and (isfloat(b)==True):
+            return float(expk(float(a),float(b)))
+        elif(isfloat(a)== True) and (isfloat(b)==False):
+            return float(expk(float(a),b))
+        elif(isfloat(a)== False) and (isfloat(b)==True):
+            return float(expk(a,float(b)))
+        else:
+            return expk(a,b)
     elif x==6:
         #faktorials
-        return fac(int(a))
+        if (isfloat(a)== True) and (isfloat(b)==True):
+            return fac(expk(float(a),float(b)))
+        elif(isfloat(a)== True) and (isfloat(b)==False):
+            return fac(expk(float(a),b))
+        elif(isfloat(a)== False) and (isfloat(b)==True):
+            return fac(expk(a,float(b)))
+        else:
+            return fac(a,b)
+def isfloat(x):
+    try:
+        a = float(x)
+    except ValueError:
+        return False
+    else:
+        return True
