@@ -4,6 +4,7 @@ procedure addsubmulk(a,b:integer; t:integer);
 procedure addsubmulk1(a,b:Shortint;t:integer);
 procedure addsubmulk2(a,b:Smallint;t:integer);
 procedure addsubmulk3(a,b:Longint;t:integer);
+procedure addsubmulk4(a,b:Int64;t:integer);
 procedure div0(a,b:Double);
 procedure div1(a,b:Extended);
 procedure div2(a,b:Comp);
@@ -68,6 +69,20 @@ begin
      writeln(r);
    end;
 end;
+  procedure addsubmulk4(a,b:Int64;t:integer);
+  var  i,r:Longint;
+  begin
+     if t=1 then writeln(a+b);
+     if t=2 then writeln(a-b);
+     if t=3 then writeln(a*b);
+     if t=4 then begin if b=0 then begin a:=1; end else begin for i:=1 to b do a:=a*a; end; writeln(a); end;
+     if t=5 then
+     begin
+       r:=1;
+       for i:=1 to a do r:=r*i;
+       writeln(r);
+     end;
+  end;
 //div
   procedure div0(a,b:Double);
   begin

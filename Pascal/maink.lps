@@ -6,14 +6,14 @@
     <BuildModes Active="Default"/>
     <Units Count="2">
       <Unit0>
-        <Filename Value="maink.lpr"/>
+        <Filename Value="maink.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="maink"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="15" Y="7"/>
+        <TopLine Value="31"/>
+        <CursorPos X="3" Y="51"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -23,8 +23,8 @@
         <UnitName Value="skaitli"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="10"/>
-        <CursorPos X="21" Y="15"/>
+        <TopLine Value="1"/>
+        <CursorPos X="44" Y="7"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit1>
@@ -32,127 +32,51 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="11" HistoryIndex="10">
       <Position1>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="5" Column="3" TopLine="1"/>
+        <Filename Value="skaitli.pas"/>
+        <Caret Line="3" Column="27" TopLine="1"/>
       </Position1>
       <Position2>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="9" Column="4" TopLine="1"/>
+        <Filename Value="skaitli.pas"/>
+        <Caret Line="3" Column="18" TopLine="2"/>
       </Position2>
       <Position3>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="5" Column="3" TopLine="1"/>
+        <Filename Value="skaitli.pas"/>
+        <Caret Line="26" Column="8" TopLine="7"/>
       </Position3>
       <Position4>
         <Filename Value="skaitli.pas"/>
-        <Caret Line="3" Column="27" TopLine="1"/>
+        <Caret Line="12" Column="4" TopLine="1"/>
       </Position4>
       <Position5>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="5" Column="3" TopLine="1"/>
+        <Filename Value="skaitli.pas"/>
+        <Caret Line="29" Column="7" TopLine="22"/>
       </Position5>
       <Position6>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="4" Column="6" TopLine="1"/>
+        <Filename Value="skaitli.pas"/>
+        <Caret Line="30" Column="13" TopLine="18"/>
       </Position6>
       <Position7>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="5" Column="6" TopLine="1"/>
+        <Filename Value="skaitli.pas"/>
+        <Caret Line="9" Column="11" TopLine="1"/>
       </Position7>
       <Position8>
         <Filename Value="skaitli.pas"/>
-        <Caret Line="3" Column="18" TopLine="2"/>
+        <Caret Line="15" Column="1" TopLine="3"/>
       </Position8>
       <Position9>
         <Filename Value="skaitli.pas"/>
-        <Caret Line="26" Column="8" TopLine="7"/>
+        <Caret Line="39" Column="4" TopLine="30"/>
       </Position9>
       <Position10>
         <Filename Value="skaitli.pas"/>
-        <Caret Line="12" Column="4" TopLine="1"/>
+        <Caret Line="20" Column="30" TopLine="8"/>
       </Position10>
       <Position11>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="5" Column="18" TopLine="1"/>
-      </Position11>
-      <Position12>
-        <Filename Value="skaitli.pas"/>
-        <Caret Line="29" Column="7" TopLine="22"/>
-      </Position12>
-      <Position13>
-        <Filename Value="skaitli.pas"/>
-        <Caret Line="30" Column="13" TopLine="18"/>
-      </Position13>
-      <Position14>
-        <Filename Value="skaitli.pas"/>
-        <Caret Line="9" Column="11" TopLine="1"/>
-      </Position14>
-      <Position15>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="6" Column="7" TopLine="1"/>
-      </Position15>
-      <Position16>
-        <Filename Value="skaitli.pas"/>
-        <Caret Line="15" Column="1" TopLine="3"/>
-      </Position16>
-      <Position17>
-        <Filename Value="skaitli.pas"/>
-        <Caret Line="39" Column="4" TopLine="30"/>
-      </Position17>
-      <Position18>
-        <Filename Value="skaitli.pas"/>
-        <Caret Line="20" Column="30" TopLine="8"/>
-      </Position18>
-      <Position19>
         <Filename Value="skaitli.pas"/>
         <Caret Line="44" Column="103" TopLine="24"/>
-      </Position19>
-      <Position20>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="23" Column="91" TopLine="2"/>
-      </Position20>
-      <Position21>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="2" Column="18" TopLine="1"/>
-      </Position21>
-      <Position22>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="6" Column="6" TopLine="1"/>
-      </Position22>
-      <Position23>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="7" Column="7" TopLine="1"/>
-      </Position23>
-      <Position24>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="4" Column="24" TopLine="1"/>
-      </Position24>
-      <Position25>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="8" Column="8" TopLine="1"/>
-      </Position25>
-      <Position26>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="63" Column="9" TopLine="45"/>
-      </Position26>
-      <Position27>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="35" Column="52" TopLine="23"/>
-      </Position27>
-      <Position28>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="63" Column="23" TopLine="46"/>
-      </Position28>
-      <Position29>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="68" Column="46" TopLine="63"/>
-      </Position29>
-      <Position30>
-        <Filename Value="maink.lpr"/>
-        <Caret Line="5" Column="1" TopLine="1"/>
-      </Position30>
+      </Position11>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>
