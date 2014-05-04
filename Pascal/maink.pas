@@ -1,7 +1,8 @@
 //Autors Kristaps Stalidzans RTU Students 1.Kurss 1.Grupa
 program maink;
 uses  crt,skaitli;
-var a,b,t,t1,x,i:integer;
+var a,b,t,t1,t2,x,i:integer;
+a1,b1:double;
 st1,st2,st,stv:string;
 label  sakums,int,stri,beigas;
 begin
@@ -25,7 +26,14 @@ begin
   writeln('1. Pasa dotas');
   writeln('2. Uzgeneretas');
   readln(t1);
-  if t1=1 then begin writeln('A veriba:'); readln(a); writeln('B veriba:'); readln(b); end
+  if t1=1 then begin
+  writeln('Kadas?');
+  writeln('1. Float');
+  writeln('2. Intiger');
+  readln(t2);
+  if t2 = 1 then begin writeln('A veriba:'); readln(a1); writeln('B veriba:'); readln(b1); end
+  else begin
+  writeln('A veriba:'); readln(a); writeln('B veriba:'); readln(b); end; end
   else begin a:=random(999); b:=random(999); writeln('A veriba: ',a); writeln('B veriba: ',b); readln; end;
   writeln('Kodas Darisim ar tam?');
   writeln('1. Saskaitit');
@@ -59,7 +67,7 @@ begin
   writeln('5. Single');
   writeln('6. Real');
   readln(x);
-  if x=1 then div0(a,b);
+  if x=1 then div0(a1,b1);
   if x=2 then div1(a,b);
   if x=3 then div2(a,b);
   if x=4 then div3(a,b);

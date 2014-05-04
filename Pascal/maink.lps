@@ -12,8 +12,8 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="31"/>
-        <CursorPos X="3" Y="51"/>
+        <TopLine Value="21"/>
+        <CursorPos X="1" Y="33"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -23,8 +23,8 @@
         <UnitName Value="skaitli"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="44" Y="7"/>
+        <TopLine Value="77"/>
+        <CursorPos X="1" Y="90"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit1>
@@ -32,7 +32,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="11" HistoryIndex="10">
+    <JumpHistory Count="16" HistoryIndex="15">
       <Position1>
         <Filename Value="skaitli.pas"/>
         <Caret Line="3" Column="27" TopLine="1"/>
@@ -77,6 +77,26 @@
         <Filename Value="skaitli.pas"/>
         <Caret Line="44" Column="103" TopLine="24"/>
       </Position11>
+      <Position12>
+        <Filename Value="maink.pas"/>
+        <Caret Line="34" Column="95" TopLine="25"/>
+      </Position12>
+      <Position13>
+        <Filename Value="maink.pas"/>
+        <Caret Line="5" Column="6" TopLine="1"/>
+      </Position13>
+      <Position14>
+        <Filename Value="skaitli.pas"/>
+        <Caret Line="89" Column="29" TopLine="77"/>
+      </Position14>
+      <Position15>
+        <Filename Value="maink.pas"/>
+        <Caret Line="70" Column="25" TopLine="52"/>
+      </Position15>
+      <Position16>
+        <Filename Value="skaitli.pas"/>
+        <Caret Line="90" Column="1" TopLine="77"/>
+      </Position16>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>

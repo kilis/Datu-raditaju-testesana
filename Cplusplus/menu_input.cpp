@@ -8,6 +8,8 @@ using namespace std;
 int menu(){
     int input,input2,input3,input4,input5;
     int a,b,c;
+    double a1,b1;
+    bool chekf;
 sakums:
     cout<<"Ko darisiet ar mainigajiem a un b?\n";
     cout<<"1.Pats ievadisiet\n";
@@ -16,10 +18,20 @@ sakums:
     cin>> input3;
     switch ( input3 ){
         case 1:
+            cout<<"(1.)Float vai (2.)intiger?\n";
+            cin>>input5;
+            if (input5 == 1) chekf = true; else chekf = false;
+            if(chekf == true){
+            cout<<"Vertiba a:\n";
+            cin>> a1;
+            cout<<"Vertiba b:\n";
+            cin>> b1;
+            } else {
             cout<<"Vertiba a:\n";
             cin>> a;
             cout<<"Vertiba b:\n";
             cin>> b;
+            }
             break;
         case 2:
             cout<<"Max robezas veriba a:\n";
@@ -138,15 +150,30 @@ sakums2:
         switch ( input2 ){
             case 1:
                 cout<<"Vertiba ir:\n";
+                if (chekf = false) {
                 cout<<div0(a,b);
+                }
+                else {
+                cout<<div0(a1,b1);
+                }
                 break;
             case 2:
                 cout<<"Vertiba ir:\n";
+                if (chekf = false) {
                 cout<<div1(a,b);
+                }
+                else {
+                cout<<div1(a1,b1);
+                }
                 break;
             case 3:
                 cout<<"Vertiba ir:\n";
+                if (chekf = false) {
                 cout<<div2(a,b);
+                }
+                else {
+                cout<<div2(a1,b1);
+                }
                 break;
         }
         break;
@@ -168,11 +195,11 @@ sakums2:
                 break;
             case 2:
                 cout<<"Vertiba ir:\n";
-                cout<<power1(a,b);
+                cout<<power1(a1,b1);
                 break;
             case 3:
                 cout<<"Vertiba ir:\n";
-                cout<<power1(a,b);
+                cout<<power2(a,b);
                 break;
         }
         break;

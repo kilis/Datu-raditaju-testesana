@@ -18,7 +18,7 @@ float power0(int x,int y)//pakape eksponente ar negativiem skaitliem
         return 1/result;
     }
 };
-double power1(int x,int y)//pakape eksponente ar negativiem skaitliem
+double power1(float x,float y)//pakape eksponente ar negativiem skaitliem
 {
     if (y == 0) return 1;
     else if (y == 1) return x;

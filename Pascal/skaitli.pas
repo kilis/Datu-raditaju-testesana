@@ -85,8 +85,10 @@ end;
   end;
 //div
   procedure div0(a,b:Double);
+  var t:Double;
   begin
-     writeln(a/b);
+     t:=a/b;
+     writeln(t);
   end;
   procedure div1(a,b:Extended);
   begin

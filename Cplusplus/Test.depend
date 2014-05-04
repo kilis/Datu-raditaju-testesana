@@ -58,11 +58,11 @@
 	"power_int.h"
 	"menu_input.h"
 
-1399133020 c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\power_int.h
+1399208640 c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\power_int.h
 
 1399144869 c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\menu_input.h
 
-1399195524 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\menu_input.cpp
+1399209794 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\menu_input.cpp
 	<iostream>
 	<stdlib.h>
 	"intk.h"
@@ -72,7 +72,7 @@
 
 1399195245 c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\stringk.h
 
-1399133027 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\power_int.cpp
+1399208394 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\power_int.cpp
 	"power_int.h"
 	<stdio.h>
 	<stdlib.h>
@@ -81,7 +81,7 @@
 	<iostream>
 	<stdlib.h>
 
-1399195170 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\random_string.cpp
+1399195585 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\random_string.cpp
 	<iostream>
 	<stdlib.h>
 
