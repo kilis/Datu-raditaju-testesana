@@ -228,19 +228,28 @@ beigas:
 }
 int menu_string(){
     std::string a,b,c;
-    int t;
+    int t,f;
+        cout<<"Generet string(1.) vai ievadisiet pats(2.)?";
+        cin>>f;
+        if (f==2) {
         cout<<"Ievaidet tekstu a\n";
         cin>>a;
         cout<<"Ievaidet tekstu b\n";
         cin>>b;
+        } else {
+        a=random_str(5);
+        b=random_str(5);
+        }
         cout<<"Rezultats\n";
         cout<<strinkk(a,b);
         cout<<"\n";
         c = strinkk(a,b);
         cout<<"Ievadiet skaili kuru butrtu velaties redzet:\n";
+        cout<<"\n";
         cin>>t;
         cout<<"Burts:\n";
         cout<<c[t];
+        cout<<"\n";
 beigas:
     cin.get();
 }

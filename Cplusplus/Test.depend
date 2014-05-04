@@ -40,3 +40,48 @@
 	<iostream>
 	<stdlib.h>
 
+1399127025 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\fact_int.cpp
+	"fact_int.h"
+
+1399127039 c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\fact_int.h
+
+1399132875 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\intk.cpp
+	"intk.h"
+	"fact_int.h"
+
+1399135336 c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\intk.h
+
+1399145710 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\main.cpp
+	<iostream>
+	"intk.h"
+	"fact_int.h"
+	"power_int.h"
+	"menu_input.h"
+
+1399133020 c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\power_int.h
+
+1399144869 c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\menu_input.h
+
+1399195524 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\menu_input.cpp
+	<iostream>
+	<stdlib.h>
+	"intk.h"
+	"fact_int.h"
+	"power_int.h"
+	"stringk.h"
+
+1399195245 c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\stringk.h
+
+1399133027 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\power_int.cpp
+	"power_int.h"
+	<stdio.h>
+	<stdlib.h>
+
+1399144693 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\stringk.cpp
+	<iostream>
+	<stdlib.h>
+
+1399195170 source:c:\users\kristaps\documents\github\datu-raditaju-testesana\cplusplus\random_string.cpp
+	<iostream>
+	<stdlib.h>
+

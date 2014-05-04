@@ -32,7 +32,18 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="fact_int.cpp" />
+		<Unit filename="fact_int.h" />
+		<Unit filename="intk.cpp" />
+		<Unit filename="intk.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="menu_input.cpp" />
+		<Unit filename="menu_input.h" />
+		<Unit filename="power_int.cpp" />
+		<Unit filename="power_int.h" />
+		<Unit filename="random_string.cpp" />
+		<Unit filename="stringk.cpp" />
+		<Unit filename="stringk.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

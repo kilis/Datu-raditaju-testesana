@@ -1,8 +1,8 @@
 //Autors Kristaps Stalidzans RTU Students 1.Kurss 1.Grupa
 program maink;
 uses  crt,skaitli;
-var a,b,t,t1,x:integer;
-st1,st2,st:string;
+var a,b,t,t1,x,i:integer;
+st1,st2,st,stv:string;
 label  sakums,int,stri,beigas;
 begin
 writeln('Autors Kristaps Stalidzans RTU Students 1.Kurss 1.Grupa');
@@ -74,10 +74,24 @@ begin
 end;
 stri:
 begin
+  writeln('Kodas vertibas?');
+  writeln('1. Pasa dotas');
+  writeln('2. Uzgeneretas');
+  readln(t);
+  if t=1 then begin
   writeln('Ievadiet tekstu a');
   readln(st1);
   writeln('Ievadiet tekstu b');
   readln(st2);
+  end
+  else
+  begin
+  randomize;
+  st1:='A';
+  for i:=1 to 5 do begin stv:=chr(random(32)+65); st1:=concat(stv,st1) end;
+  st2:='B';
+  for i:=1 to 5 do begin stv:=chr(random(32)+65); st1:=concat(stv,st1) end;
+  end;
   st:=concat(st1,st2);
   writeln('Gala rezultats: ',st);
   writeln('Ievadiet kuru burtu veletos redzet');
